@@ -1,0 +1,69 @@
+"stand"
+{
+    viewheight                          "0 0 60"
+    firstpersonproxyoffset              "0 0 -60"
+	
+    speed                               173.5
+    sprintspeed                         260
+}
+
+"crouch"
+{
+    viewheight                          "0 0 38"
+    firstpersonproxyoffset              "0 0 -38"
+	
+    speed                               80
+}
+
+"jump"
+{
+    jumpheight                          60
+    superjumpMinHeight                  60
+    superjumpMaxHeight                  60
+    superjumpHorzSpeed                  180
+	
+    gravityscale                        0.75
+}
+
+"wallrun"
+{
+    wallrun_timeLimit                   1.75
+
+    wallrunJumpOutwardSpeed             205
+    wallrunJumpUpSpeed                  230
+    wallrunJumpInputDirSpeed            80
+
+    wallrunMaxSpeedVertical             225
+    wallrunMaxSpeedHorizontal           420
+    wallrunAccelerateVertical           360
+    wallrunAccelerateHorizontal         1500
+}
+
+"slide"
+{
+    slidedecel                          50
+    slidevelocitydecay                  0.7
+	
+    slideFOVScal                        1.1 // scales fov by this amount while sliding
+    slideFOVLerpInTime                  0.25 // lerp in over this time
+    slideFOVLerpOutTime                 0.25 // lerp out over this time
+}
+
+"sprint"
+{
+    sprintViewOffset                    -6.0
+    sprintStartDelay                    0.2
+    sprintStartDuration                 0.8
+    sprintStartFastDuration             0.2
+    sprintEndDuration                   0.15
+    sprinttiltMaxRoll                   2
+}
+
+
+health                                  100
+
+stepheight                              18
+ziplineSpeed                            600
+
+airSpeed                                70
+airAcceleration                         540

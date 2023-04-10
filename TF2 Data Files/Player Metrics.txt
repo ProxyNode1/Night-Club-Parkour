@@ -1,0 +1,11 @@
+Stand
+{
+	Capsule Height
+	Eye Height
+}
+
+Crouch
+{
+	Capsule Height
+	Eye Height
+}
